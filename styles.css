@@ -35,7 +35,9 @@ nav{
 footer{
 	text-align: center;
 	padding: 5px;
-	background-color:slateblue
+	margin-left: 10px;
+	background-color:slateblue;
+	width: 1500px; ;
 
 }
 
