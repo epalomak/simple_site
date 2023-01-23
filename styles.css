@@ -4,7 +4,7 @@
 }
 
 #background{
-	background-color:darkgrey
+	background-color:slategrey;
 }
 
 img{
@@ -50,7 +50,7 @@ footer{
 }
 
 #box1{
-	background-color: goldenrod;
+	background-color:darkgrey;
 	width: 500px;
 	height: 1070px;
 	margin: 10px;
@@ -58,7 +58,7 @@ footer{
 }	
 
 .box{
-	background-color:goldenrod;
+	background-color: darkgrey;
 	position: absolute;
 	width: 1000px;
 	margin: 10px;
