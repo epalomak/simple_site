@@ -3,6 +3,20 @@
 	clear:both;
 }
 
+.grid-container{
+	display: grid;
+	grid-template-rows: 50px; 
+	grid-template-columns: 30% 30%;
+	margin-left: 150px;
+}
+
+.grid-item{
+
+  background: gray; 
+  text-align: center;
+  font-size: 30px;
+}
+
 #background{
 	background-color:slategrey;
 }
@@ -36,7 +50,7 @@ footer{
 	text-align: center;
 	padding: 5px;
 	margin-left: 10px;
-	background-color:slateblue;
+	background-color:darkslategrey;
 	width: 1500px; 
 
 }
@@ -51,6 +65,7 @@ footer{
 
 #box1{
 	background-color:darkgrey;
+	border-radius: 10%;
 	width: 500px;
 	height: 1070px;
 	margin: 10px;
@@ -60,33 +75,57 @@ footer{
 .box{
 	background-color: darkgrey;
 	position: absolute;
+	border-radius: 5%;
 	width: 1000px;
 	margin: 10px;
 }
 
 #box2{
 	height: 200px;
-	top: 0;
+	top: 60px;
 	left: 520px;
 
 }
 
 #box3{
 	height: 480px;
-	top: 210px;
+	top: 270px;
 	left: 520px;
 	
 }
  #box4{
 	height: 370px;
-	top: 700px;
+	top: 760px;
 	width: 490px;
 	left: 520px;
  }
 
 #box5{
 	height: 370px;
-	top: 700px;
+	top: 760px;
 	width: 500px;
 	left: 1020px;
  }
+ 
+.navbar{
+	background-color:black;
+}
+
+.nav-link,
+.navbar-brand{
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link{
+	margin-right: 1em;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+	color: black;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+} 
